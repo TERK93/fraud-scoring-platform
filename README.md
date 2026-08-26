@@ -39,8 +39,11 @@ ingestion/generator.py --(live transactions)--> api/main.py (FastAPI /predict)
    PostgreSQL (raw + scored transactions) <----- dbt staging/marts + tests
         |
         v
-   Power BI dashboard
+   Streamlit dashboard
 ```
+
+Dashboard tool is a proposal, not locked in — swap this line if you and your
+collaborator land somewhere else.
 
 ## Local setup
 
