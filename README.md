@@ -1,5 +1,7 @@
 # fraud-scoring-platform
 
+[![CI](https://github.com/TERK93/fraud-scoring-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/TERK93/fraud-scoring-platform/actions/workflows/ci.yml)
+
 A small end-to-end fraud-scoring pipeline: a model trained on real historical
 transaction data, serving live predictions against a continuously-generated
 transaction stream.
